@@ -14,9 +14,7 @@ litrosLata = 18
 
 if metros > metrosLitro:
     qntsLitros = metros / 3
-    print(qntsLitros)
     qntsLatas = qntsLitros / 18
-    print(qntsLatas)
     while qntsLatas > 1:
         contador = qntsLatas
         qntaPagar = 80 * qntsLatas
